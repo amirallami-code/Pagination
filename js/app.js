@@ -27,7 +27,7 @@ let userListElem = $.getElementById('list')
 let paginationElem = $.getElementById('pagination')
 
 let currentPage = 1
-let rowsCount = 5
+let rowsCount = 4
 
 function showUsersList(allUsersArray, userListElem, rowsCount, currentPage) {
     userListElem.innerHTML = ''
